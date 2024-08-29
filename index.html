@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotaBot</title>
+    
+        <!-- Vincular archivo CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    
+        <!-- Favicon -->
+    <link rel="icon" href="logo.jpeg" type="image/jpeg">
+    
+        <!-- Primary Meta Tags -->
+    <meta name="title" content="NotaBot" />
+    <meta name="description" content="Organiza y almacena tus notas de forma rápida y sencilla, optimizando tu flujo de trabajo y asegurando que toda tu información esté siempre al alcance de tu mano." />
+    
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.notabot.com" /> <!-- Asegúrate de usar https:// en URLs -->
+    <meta property="og:title" content="NotaBot" />
+    <meta property="og:description" content="Organiza y almacena tus notas de forma rápida y sencilla, optimizando tu flujo de trabajo y asegurando que toda tu información esté siempre al alcance de tu mano." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+    
+        <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.notabot.com" /> <!-- Asegúrate de usar https:// en URLs -->
+    <meta property="twitter:title" content="NotaBot" />
+    <meta property="twitter:description" content="Organiza y almacena tus notas de forma rápida y sencilla, optimizando tu flujo de trabajo y asegurando que toda tu información esté siempre al alcance de tu mano." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+</head>
+<body>
+    <div class = "a">
+       
+        <div class = "contenedor_pricipal">
+            <h1>NotaBot</h1>
+            <div class = "estructura_bot">
+                <div class = "pantalla">
+                    <div id = "repuesta">
+                        <p id = "texto_1" class = "texto">Hola, ¿podrías describir en detalle la nota que te gustaría guardar?</p>
+                    </div>
+                    <div id = "re"></div>
+                </div>
+                <textarea  id="formulario"></textarea><br>
+                <button id = "enviar">Enviar</button>
+            </div>
+        </div>
+        <div id = "resultados"></div>
+        
+    </div>
+    
+    
+    <script src = "funcionalida.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+.contenedor_pricipal{
+    width:30% ;
+    text-align: center;
+}
+h1{
+    color: #2985e0;
+}
+.estructura_bot{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 20px #babbbb;
+    border-radius: 10%;
+}
+body{
+   background-color:  #f2f8fd;
+
+   
+}
+.pantalla{
+    width: 80%;
+    height: 25vw;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: scroll;
+    font-size: 120%;
+    color:#02070c;
+}
+
+#formulario{
+    width: 90%;
+    background-color: #e8eef3;
+    height: 5vw;
+    font-size: 120%;
+    border: 1px solid #ffffff;
+    outline: none;
+    color:#02070c;
+    resize: none;
+}
+#enviar{
+    font-size: 120%;
+    width: 90%;
+    padding: 2%;
+    background-color: #2985e0;
+    border: 1px solid #2985e0;
+    color: #f2f8fd;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: background 1s;
+
+}
+#enviar:hover{
+    background-color: #034e99;
+}
+#repuesta{
+    margin-top: 3%;
+    text-align: left;
+
+}
+
+#re{
+    text-align: left;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+#resultados{
+    width: 40%;
+    color:#02070c;
+    font-size: 121%;
+    align-content: center;
+    margin-left: 5%;
+}
+.p{
+    background-color:#ffffff ;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 10px 10px 20px #babbbb;
+}
+.boton_eleminar{
+    font-size: 105%;
+    color: #f2f8fd;
+    background-color: red;
+    border: 1px solid red;
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+@media screen and (max-width:991px){
+    .a{
+        display: block;
+    }
+    .contenedor_pricipal{
+        width:90%;
+        margin: 5%;
+
+    }
+    #formulario{
+        height: 20vw;
+    }
+    .estructura_bot{
+        height: 110vw;
+    }
+    .pantalla{
+        height: 60vw;
+        font-size: 100%;
+    }
+    #resultados{
+        width: 90%;
+    }
+    .p{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .boton_eleminar{
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:991px){
+    .pantalla{
+        font-size: 200%;
+    }
+    .p{
+        font-size: 120%;
+    }
+}
